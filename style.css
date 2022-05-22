@@ -1,5 +1,11 @@
 body {
   font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+section {
+  height: 400px;
 }
 h1 {
   font-size: 50px;
@@ -16,4 +22,16 @@ h1 {
 }
 .half-width img {
   width: 100%;
+}
+.top-banner {
+  background-image: url('src/top-banner.png');
+  background-repeat: no-repeat;
+}
+.link-button {
+  text-decoration: none;
+  background: linear-gradient(45deg, lightSalmon, tomato);
+  padding: 12px 30px;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bold;
 }
